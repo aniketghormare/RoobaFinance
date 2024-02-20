@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.maincontainer {
+  height: auto;
+  width: 100vw;
+  border: 1px solid white;
+}
+.conatiner {
+  width: 100vw;
+  height: auto;
+  top: -12.01px;
+  border: 1px solid white;
+  /* background: #000000; */
+}
+.uppercontainer {
+  width: 100vw;
+  height: auto;
+  top: -75.55px;
+  left: -9.33px;
+  border: 1px solid white;
+}
+.logoconatiner {
+  width: 1283.34px;
+  top: 100.06px;
+  left: 78.33px;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire container */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Adjust text color for better visibility */
+  z-index: 1; /* Ensure content appears on top of the video */
+  text-align: center; /* Center content horizontally */
+  /* border: 1px solid white; */
+  height: auto;
+  width: 884.8px;
+}
+
+.one {
+  /* margin-left: 0px; */
+  text-align: start;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 64px;
+}
+.two {
+  text-align: end;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 64px;
+}
+.three {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.four {
+  font-size: 16px;
+}
+
+.cards {
+  display: grid;
+  row-gap: 40px;
+
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #131212;
+}
+.cards > div {
+  width: 513.39px;
+  height: 543.01px;
+  top: 860.64px;
+  left: 783.12px;
+  border-radius: 2.5px;
+  border: 1px solid #131212;
+  margin: auto;
+}
+
+.card2 {
+  /* position: relative; */
+  background-color: #f2f2f2;
+}
+
+.img {
+  height: 201.39px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center; /* Center content horizontally */
+  background-image: url("../images/nature.png");
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.tags {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.tags > span {
+  height: auto;
+  width: auto;
+  border: 1px solid white;
+  display: inline;
+}
+.pricediv {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+.pricediv > div {
+  width: 115.76px;
+  height: 76.31px;
+  top: 1224.27px;
+  left: 1061.79px;
+  border-radius: 2.5px;
+  border: 1px solid green;
+}
+.bottom {
+  align-items: center;
+}
+
+.cardinner {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.blur {
+  font-family: Switzer;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  color: #131212;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.btn > button {
+  width: auto;
+
+  left: 817.9px;
+  border-radius: 2.5px;
+  border: 0.75px;
+  padding: 7px;
+}
+
+.dis {
+  font-family: Switzer;
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 60px;
+  color: white;
+}
+.prime {
+  font-family: Switzer;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+}
+.card1 {
+  background-color: #131212;
+  color: #f2f2f2;
+}
+.learn {
+  font-family: Switzer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+}
+.Access {
+  font-family: IvyPresto Display;
+  font-size: 64px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  font: italic;
+}
+
+.card4 {
+  color: white;
+  background-color: #131212;
+}
+.card4 button {
+  background: linear-gradient(
+      0deg,
+      rgba(242, 242, 242, 0.1),
+      rgba(242, 242, 242, 0.1)
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+  color: white;
+}
+
+/* whitecards */
+
+.whitecards {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pinkbox {
+  width: 660.2px;
+  height: 163.29px;
+  top: 2417.94px;
+  left: 362.21px;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.pinkbox > p {
+  font-family: IvyPresto Display;
+  font-size: 64px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #191819;
+}
+
+.cardbox {
+  width: 800.2px;
+  height: auto;
+  top: 2417.94px;
+  left: 362.21px;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.crd {
+  width: 256.47px;
+  height: 359.06px;
+  top: 3010.84px;
+  left: 585.28px;
+  /* border: 1px solid green; */
+  background-color: #fafafa;
+  angle: 180 deg;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.smallcrd {
+  width: 189.72px;
+  height: auto;
+  top: 2814.38px;
+  left: 357.82px;
+  /* border: 1px solid yellow; */
+  margin: auto;
+
+  bottom: 0px;
+  margin-bottom: 15px;
+}
+
+.same {
+  font-family: Switzer;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 5px;
+}
+.computer {
+  width: 884.8px;
+  height: 141.46px;
+  top: 3638.18px;
+  left: 211.92px;
+  /* border: 1px solid pink; */
+  margin: auto;
+}
+.how {
+  font-style: italic;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: IvyPresto Display;
+  font-size: 64px;
+}
+
+.investcontainer {
+  width: 884.8px;
+  height: auto;
+  top: 3638.18px;
+  left: 211.92px;
+  /* border: 1px solid blue; */
+  margin: auto;
+  display: flex;
+}
+
+.create {
+  width: auto;
+  height: 58.19px;
+  top: 3844.62px;
+  left: 276.7px;
+  /* border: 1px solid black; */
+  font-family: Switzer;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.computerdisplay {
+  width: 60%;
+  /* border: 1px solid green; */
+}
+
+.accountcontainer {
+  width: 372.41px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.startbtn {
+  height: 35.49px;
+
+  width: 163.6px;
+  font-family: Switzer;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.computerdiv {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.investment {
+  width: 450px;
+  height: 147.14px;
+  top: 4557.82px;
+  left: 470.65px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.more1 {
+  font-family: IvyPresto Display;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.more2 {
+  font-family: IvyPresto Display;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-left: 120px;
+}
+.para {
+  width: 758.88px;
+  height: 156.32px;
+  top: 4706.98px;
+  left: 365.72px;
+  margin: auto;
+  text-align: center;
+}
+
+.partner {
+  width: 894.95px;
+  margin: auto;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.temp {
+  font-family: Switzer;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 118px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.whitediv {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.formdiv {
+  display: flex;
+}
+.blackdiv {
+  width: 50%;
+  height: 695.06px;
+  background-color: #191819;
+  color: #f2f2f2;
+}
+.form {
+  width: 50%;
+}
+.one2 {
+  font-family: IvyPresto Display;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.one1 {
+  font-family: IvyPresto Display;
+  font-size: 54px;
+  font-weight: 100;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.form{
+  display: flex;
+  align-items: center;
+  background-color:#F2F2F2 ;
+}
+.form *{
+  font-family: Switzer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+ 
+}
+.frm {
+  width: 462.46px;
+  height: 500px;
+
+  margin: auto;
+  border: 1px solid #F2F2F2;
+}
+.frm input{
+  border: none;
+  width: 100%;
+  background-color:#F2F2F2 ;
+}
+.blank{
+  height: 700px;
+}
+
+.crd:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}

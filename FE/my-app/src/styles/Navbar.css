@@ -1,0 +1,31 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    border:1px solid #131212;
+    display: flex;
+    background-color: #131212;
+    color: #F2F2F2;
+    
+}
+
+.navbar div{
+    height: 100%;
+    width: 50%;
+    border: 1px solid #131212;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 5px;
+    background-color: #BCBCBC;
+    width:113.12px ;
+}
